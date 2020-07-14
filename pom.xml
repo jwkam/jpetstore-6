@@ -342,7 +342,7 @@
         <cargo.maven.containerUrl>http://www.caucho.com/download/resin-${resin.version}.zip</cargo.maven.containerUrl>
       </properties>
     </profile>
-    <!-- sonar -->
+    <!-- sonar 
     <profile>
       <id>sonar</id>
       <activation>
@@ -355,7 +355,8 @@
       <!-- projectKey default <groupId>:<artifactId> -> ex : org.mybatis:jpetstore-->
         <sonar.projectKey>jwkam:jpetstore</sonar.projectKey>             
       </properties>
-    </profile>	           
+    </profile>	       
+    -->    
     <!-- Profiles for JDK version -->
     <profile>
       <id>jdk7</id>
