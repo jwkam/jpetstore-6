@@ -57,8 +57,4 @@
 		<url-pattern>*.action</url-pattern>
 	</servlet-mapping>
         <distributable/>
-        <error-page>
-                <error-code>404</error-code>
-                <location>/error/404.html</location>
-        </error-page>
 </web-app>
